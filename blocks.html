@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- refreshes page ever 2 seconds -->
+        <!-- <meta http-equiv="refresh" content="2">-->
+
+        <link rel="stylesheet" href="w3.css">
+        <style>
+
+h2.city
+{
+    background-color: tomato;
+    color:white;
+    padding:10px;
+}
+h2.main
+{
+    text-transform:uppercase;
+}
+            </style>
+    </head>
+    <body>
+        <div>
+            <h2 class="city">London</h2>
+            <p>Capital of UK</p>
+        </div>
+        <div>
+            <h2 class="city">Tokyo</h2>
+            <p>Capital of Japan</p>
+        </div>
+        <div>
+            <h2 class="city main">Delhi</h2>
+            <p>Capital of India</p>
+        </div>
+        <iframe name ="iframe_a" src="links.html" style="border:12px solid powderblue;padding:0px;width:100%;height:500px;"></iframe>
+        <p>Open basics.html in iframe by clicking on the below link</p>
+        <a href="basics.html" target="iframe_a">Basics</a>
+        <p><button class="w3-button w3-red">Red</button></p>
+        <div class="w3-padding-32 w3-red w3-circle w3-center">
+  <h1>&rarr; The w3-circle Class &larr;</h1>
+</div>  
+        <!--<button onclick="myFunction()">Hide elements</button>
+        <script>
+function myFunction() {
+  var x = document.getElementsByClassName("city");
+  for (var i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+}
+</script>-->
+    </body>
+</html>

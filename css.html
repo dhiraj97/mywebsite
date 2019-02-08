@@ -1,0 +1,194 @@
+
+<!--position:fixed keeps the items in fixed position e1 if we scroll the page
+overflow adds scrollbar if text too long
+display hides or makes visible 
+-->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+<style>
+body
+{
+    background-image:url("1.gif");
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+}
+.dotted
+{
+    border-width:10px;
+    border-color: red;
+    border-style: inset;
+    border-radius:10px;
+    outline: thick inset rgb(250,100,0);
+    color:hotpink;
+    position:sticky;
+    top:0;
+    width:19%;
+}
+div
+{
+    margin:10%;
+    border: 5px inset powderblue;
+    width:300px;
+    color:white;
+}
+p.p1
+{
+    margin:inherit;
+}
+pre
+{
+    line-height: 1;
+    font-family: serif;
+    font-size: 1vw;
+
+}
+i
+{
+    border:1px dotted red;   
+}
+a:link
+{
+    color:red;
+}
+a:visited
+{
+    color:green;
+}
+a:hover
+{
+    color:hotpink;
+}
+a:active
+{
+    color:aliceblue;
+}
+table
+{
+    width: 100%;
+
+}
+tr:nth-child(even)
+{
+    background-color: #f2f2f2;
+}
+tr:nth-child(odd)
+{
+    background-color: #fff;
+}
+tr:hover
+{
+    background-color: #f00;
+}
+
+th,td
+{
+    color:black;
+    border:1px  solid #ddd;
+    padding:8px;
+}
+th
+{
+    background-color: #4CAF50;
+    color:white;
+    text-align: left;
+    padding:top 10px;
+    padding:bottom 10px;
+}
+.table
+{
+    overflow-y:auto;
+}
+
+.overflow
+{
+    width:fit-content;
+    height:100px;
+    overflow: auto;
+    padding:10px;
+
+}
+
+    </style>
+    </head>
+<body>
+    <input type="button" value="Click Me" class="dotted">
+      <input type="button" value="Click Me" class="dotted">
+      <input type="button" value="Click Me" class="dotted">
+      <input type="button" value="Click Me" class="dotted">
+      <input type="button" value="Click Me" class="dotted">
+      
+    <div>
+        <pre>
+            Hello 
+            My 
+            name 
+            is 
+            Dhiraj
+            Ramnani
+            and 
+            i 
+            am 
+            a
+            web developer
+            at reliance center
+        </pre>
+        <p class="p1">I <span><i class="fa fa-heart -4x"></i></span> myself</p>
+        <a href="https://www.helloworld.com" target="_blank">Register</a>
+    </div>
+    <div class="table">
+    <table>
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Goldman Sachs</td>
+            <td>Dhiraj Ramnani</td>
+            <td>Canada</td>
+        </tr>
+        <tr>
+            <td>Goldman Sachs</td>
+            <td>Dhiraj Ramnani</td>
+            <td>Canada</td>
+        </tr><tr>
+            <td>Goldman Sachs</td>
+            <td>Dhiraj Ramnani</td>
+            <td>Canada</td>
+        </tr><tr>
+            <td>Goldman Sachs</td>
+            <td>Dhiraj Ramnani</td>
+            <td>Canada</td>
+        </tr>
+    </table>
+    </div>
+    <div class="overflow">
+        <pre>
+            Hello my name is Dhiraj
+            Hello my name is Dhiraj
+            Hello my name is Dhiraj
+            Hello my name is Dhiraj
+            Hello my name is Dhiraj
+            Hello my name is Dhiraj
+            Hello my name is Dhiraj
+            Hello my name is Dhiraj
+            Hello my name is Dhiraj
+            Hello my name is Dhiraj
+            Hello my name is Dhiraj
+            Hello my name is Dhiraj
+            Hello my name is Dhiraj
+            Hello my name is Dhiraj
+            Hello my name is Dhiraj
+            Hello my name is Dhiraj
+            Hello my name is Dhiraj
+            Hello my name is Dhiraj
+
+        </pre>
+        </div>
+    </body>
+</html>
